@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exclusive Membership</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://www.paypal.com/sdk/js?client-id=YOUR_PAYPAL_CLIENT_ID&vault=true&intent=subscription"></script>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Your Exclusive Membership!</h1>
+        <p>Subscribe now and get access to premium content.</p>
+    </header>
+
+    <section id="video-section">
+        <video controls>
+            <source src="your-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <section id="signup-section">
+        <h2>Sign Up Now</h2>
+        <form id="signup-form">
+            <input type="email" id="email" placeholder="Your email address" required>
+            <button type="submit">Sign Up</button>
+        </form>
+        <p id="signup-message"></p>
+    </section>
+
+    <section id="membership-section">
+        <h2>Become a Member for only €9.99/month</h2>
+        <div id="paypal-button-container"></div>
+    </section>
+
+    <footer>
+        <p>© 2025 Your Name. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
